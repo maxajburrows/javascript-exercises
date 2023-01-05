@@ -8,5 +8,12 @@ const reverseString = function(string) {
     return reverseString
 };
 
+/* Can do in one line:
+   string.split('').reverse().join('');
+   1) Split the string into an array.
+   2) Reverse the array.
+   3) Concatenate array into a string again.
+*/
+
 // Do not edit below this line
 module.exports = reverseString;
