@@ -9,5 +9,9 @@ const leapYears = function(year) {
 
 };
 
+/* Can simplify logic to one line
+   year % 4 === 0 && ( year % 100 !== 0 || year % 400 === 0);
+*/
+
 // Do not edit below this line
 module.exports = leapYears;
